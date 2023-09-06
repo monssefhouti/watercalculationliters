@@ -1,0 +1,17 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Expanding Cards",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/Sass/main.scss assets/css/water.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.0.1"
+  }
+}

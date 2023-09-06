@@ -1,0 +1,46 @@
+//#region footer
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  background-color: white;
+  z-index: 100;
+
+  .copyright {
+    &__text {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+
+      svg {
+        height: 2vh;
+        width: 2vw;
+        fill: red;
+        margin: 0 -1px;
+        @media (max-width: 574px) {
+          height: 4vh;
+          width: 4vw;
+          margin: 0 5px;
+        }
+      }
+
+      a {
+        color: #3498db;
+        text-decoration: none;
+        padding: 0 0.2vw;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+//#endregion
