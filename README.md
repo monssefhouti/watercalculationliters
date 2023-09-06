@@ -1,4 +1,4 @@
-# watercalculationliters
+# water calculation liters
 This project is about 2L glasses of water filled with a couple of 250ml small cups, The big cup is filled by clicking on each small cup with calculation of litters. this small project has been build with Vanilla Javascript and designed with Sass.
 # Some pictures of the project
 ## The Big Cup is still Empty
